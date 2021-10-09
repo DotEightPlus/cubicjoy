@@ -532,10 +532,21 @@ a:focus {
   background: #e12454;
 }
 
+@media (max-width: 400px) {
+  .banner .block p {
+    color: #223a66;
+  }
+}
+@media (max-width: 480px) {
+  .banner .block p {
+    color: #223a66;
+  }
+}
 @media (max-width: 480px) {
   .banner .block h1 {
     font-size: 38px;
     line-height: 50px;
+    color: #223a66;
   }
   .banner {
     min-height: 450px;
@@ -547,6 +558,7 @@ a:focus {
   .banner .block h1 {
     font-size: 28px;
     line-height: 40px;
+    color: #223a66;
   }
   .banner {
     min-height: 450px;
