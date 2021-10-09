@@ -1,23 +1,48 @@
-// Fonts
-@import "https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap";
+@import 'variables';
 
-@import "variables";
-@import "node_modules/bootstrap/scss/bootstrap.scss";
-@import "typography";
-@import "content";
-@import "navbar";
-@import "utilities";
+@import 'mixins.scss';
+
+@import 'media-query.scss';
+
+@import 'typography';
+
+@import 'common.scss'; 
 
 
+// Header Style
+@import 'templates/header.scss';
+// Navigation Menu
+@import 'templates/navigation.scss';
+@import 'templates/backgrounds.scss';
+// Banner Style
+@import 'templates/slider.scss';
+// About Section
+@import 'templates/about.scss';
+// Feature Section
+@import 'templates/feature.scss';
+// Counter Section
+@import 'templates/counter.scss';
+// Doctors section
+@import 'templates/team.scss';
+// Service section
+@import 'templates/service.scss';
+// Department section
+@import 'templates/department.scss';
+// Call to action section
+@import 'templates/cta.scss';
+// Testimonial Section
+@import 'templates/review.scss';
+// Contact Section
+@import 'templates/contact.scss';
+// Blog Posts
+@import 'templates/blog.scss';
+// Single Blog posts
+@import 'templates/single-post.scss';
+// Blog Sidebar
+@import 'templates/blog-sidebar.scss';
+// Footer
+@import 'templates/footer.scss';
 
-//Mixins
-@import "mixins/buttons";
-
-// Components
-@import "components/buttons";
-@import "components/cards";
-@import "components/forms";
-@import "components/modals";
 
 
 
