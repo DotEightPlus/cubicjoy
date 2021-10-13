@@ -1,0 +1,21 @@
+{
+  "short_name": "Cubic Joy School",
+  "name": "Cubic Joy School",
+  "description": "Cubic Joy School",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "img/pwa.png",
+      "sizes": "144x144"
+    }
+  ],
+  "start_url": "./?v3&utm_source=web_app_manifest",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "color": "#ffffff",
+  "display": "standalone",
+  "related_applications": [{
+    "platform": "web",
+    "url": "https://cubicjoyschool.com"
+  }]
+}
